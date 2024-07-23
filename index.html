@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e0e0e0;
+            background-color: #f4f4f4;
             color: #333;
         }
         .header, .footer {
@@ -19,40 +19,43 @@
             padding: 1em 0;
         }
         .container {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .profile {
-            text-align: center;
+            display: flex;
+            align-items: center;
         }
         .profile img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            border-radius: 10px;
+            width: 300px;
+            height: auto;
+            margin-right: 20px;
         }
-        .projects {
-            margin-top: 20px;
+        .content {
+            max-width: 600px;
         }
-        .project {
-            margin-bottom: 20px;
-        }
-        .project h3 {
+        .content h2 {
+            font-size: 2em;
             margin-top: 0;
         }
-        .project a {
-            color: #007acc;
+        .content p {
+            line-height: 1.6;
+        }
+        .content a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: #333;
+            background-color: #fff;
+            border: 2px solid #333;
             text-decoration: none;
-        }
-        .project a:hover {
-            text-decoration: underline;
-        }
-        .about-me {
-            background-color: #f0f0f0;
-            padding: 15px;
             border-radius: 5px;
+        }
+        .content a:hover {
+            background-color: #333;
+            color: #fff;
         }
     </style>
 </head>
@@ -66,28 +69,11 @@
     <div class="container">
         <div class="profile">
             <img src="https://avatars.githubusercontent.com/u/8879351?v=4" alt="RIYAS M">
-            <div class="about-me">
-                <h2>About Me</h2>
-                <p>Hello! I'm RIYAS M, an Android developer with experience in building high-quality mobile applications. I'm passionate about coding, technology, and continuous learning.</p>
-            </div>
         </div>
-
-        <div class="projects">
-            <h2>Projects</h2>
-
-            <div class="project">
-                <h3>Project Title 1</h3>
-                <p>A brief description of your project. This project does X, Y, and Z.</p>
-                <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
-            </div>
-
-            <div class="project">
-                <h3>Project Title 2</h3>
-                <p>A brief description of your project. This project does A, B, and C.</p>
-                <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
-            </div>
-
-            <!-- Add more projects as needed -->
+        <div class="content">
+            <h2>Welcome to My Profile</h2>
+            <p>Hello! I'm RIYAS M, an Android developer with experience in building high-quality mobile applications. I'm passionate about coding, technology, and continuous learning.</p>
+            <a href="https://github.com/riyazm">View My GitHub</a>
         </div>
     </div>
 
