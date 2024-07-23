@@ -1,0 +1,69 @@
+[
+    {
+        "title": "Project Title 1",
+        "description": "A brief description of Project 1. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/284578014/original/c4ef1a23fd614eb3944e6f06c6d34e1ac5dde72d/design-the-best-app-screenshots-for-app-store-play-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example1"
+    },
+    {
+        "title": "Project Title 2",
+        "description": "A brief description of Project 2. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115829172/original/b5110a15b0e841171388b1dfffb5b5e5cb213e74/design-attractive-screenshots-for-app-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example2"
+    },
+    // Add more projects here
+    {
+        "title": "Project Title 3",
+        "description": "A brief description of Project 3. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/284578014/original/c4ef1a23fd614eb3944e6f06c6d34e1ac5dde72d/design-the-best-app-screenshots-for-app-store-play-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example3"
+    },
+   {
+        "title": "Project Title 1",
+        "description": "A brief description of Project 1. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/284578014/original/c4ef1a23fd614eb3944e6f06c6d34e1ac5dde72d/design-the-best-app-screenshots-for-app-store-play-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example1"
+    },
+    {
+        "title": "Project Title 2",
+        "description": "A brief description of Project 2. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115829172/original/b5110a15b0e841171388b1dfffb5b5e5cb213e74/design-attractive-screenshots-for-app-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example2"
+    },
+    // Add more projects here
+    {
+        "title": "Project Title 3",
+        "description": "A brief description of Project 3. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/284578014/original/c4ef1a23fd614eb3944e6f06c6d34e1ac5dde72d/design-the-best-app-screenshots-for-app-store-play-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example3"
+    },
+   {
+        "title": "Project Title 1",
+        "description": "A brief description of Project 1. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/284578014/original/c4ef1a23fd614eb3944e6f06c6d34e1ac5dde72d/design-the-best-app-screenshots-for-app-store-play-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example1"
+    },
+    {
+        "title": "Project Title 2",
+        "description": "A brief description of Project 2. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115829172/original/b5110a15b0e841171388b1dfffb5b5e5cb213e74/design-attractive-screenshots-for-app-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example2"
+    },
+    // Add more projects here
+    {
+        "title": "Project Title 3",
+        "description": "A brief description of Project 3. It highlights the main features and purpose of the project.",
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/284578014/original/c4ef1a23fd614eb3944e6f06c6d34e1ac5dde72d/design-the-best-app-screenshots-for-app-store-play-store.png",
+        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
+        "link": "https://play.google.com/store/apps/details?id=com.example3"
+    }
+    // Add remaining projects (4-12) similarly
+]
