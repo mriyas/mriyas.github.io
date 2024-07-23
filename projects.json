@@ -13,7 +13,6 @@
         "tags": ["Kotlin", "Android", "Compose", "MVVM"],
         "link": "https://play.google.com/store/apps/details?id=com.example2"
     },
-    // Add more projects here
     {
         "title": "Project Title 3",
         "description": "A brief description of Project 3. It highlights the main features and purpose of the project.",
@@ -35,7 +34,6 @@
         "tags": ["Kotlin", "Android", "Compose", "MVVM"],
         "link": "https://play.google.com/store/apps/details?id=com.example2"
     },
-    // Add more projects here
     {
         "title": "Project Title 3",
         "description": "A brief description of Project 3. It highlights the main features and purpose of the project.",
@@ -57,7 +55,6 @@
         "tags": ["Kotlin", "Android", "Compose", "MVVM"],
         "link": "https://play.google.com/store/apps/details?id=com.example2"
     },
-    // Add more projects here
     {
         "title": "Project Title 3",
         "description": "A brief description of Project 3. It highlights the main features and purpose of the project.",
@@ -65,5 +62,4 @@
         "tags": ["Kotlin", "Android", "Compose", "MVVM"],
         "link": "https://play.google.com/store/apps/details?id=com.example3"
     }
-    // Add remaining projects (4-12) similarly
 ]
