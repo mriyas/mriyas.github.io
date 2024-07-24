@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RIYAS M - Android Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body, html {
             margin: 0;
@@ -22,8 +23,6 @@
 
         .container {
             display: flex;
-            flex-direction: row;
-            align-items: stretch;
             width: 100%;
             padding: 20px;
             max-width: 1200px;
@@ -32,30 +31,95 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .profile {
-            width: 50%;
-            padding-right: 20px;
+       .content {
+            width: 70%;
+            padding: 20px;
             box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
         }
 
-        .profile img {
-            width: 100%;
-            min-width: 300px;
-            height: auto;
+        .profile {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f9f5f0;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
             border-radius: 10px;
         }
 
-        .content {
-            flex-grow: 1;
-            max-width: 600px;
-            box-sizing: border-box;
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
         }
 
-        .content h2, .content h3 {
-            color: #555;
+        .profile h2 {
+            font-size: 1.5em;
+            margin: 10px 0 5px;
+            color: #333;
+            padding-bottom: 10px; /* Add some space between the heading and the line */
+        }
+
+        .profile h3 {
+            font-size: 1em;
+            margin: 0;
+            padding-top: 20px;
+            color: #777;
+            font-weight: 200;
+            border-top: 1px solid #777; /* Match the color to the background */
+            letter-spacing: 0.3em; /* Adjust this value to increase or decrease the spacing */
+
+        }
+
+        .profile .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .profile .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            height: 56px;
+            background-color: #fff;
+            border-radius: 10px;
+            color: #666; /* Gray color for icons */
+            font-size: 2em; /* Adjust font size as needed */
+            text-decoration: none;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .profile .social-links a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        .resume {
+          margin: 20px;
+        }
+        .resume a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #000;
+            border: 2px solid #000;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .resume a:hover {
+            background-color: #777;
+            color: #fff;
+            border: 2px solid #777;
+
         }
 
         .content p {
@@ -91,12 +155,6 @@
 
         .projects h2 {
             font-size: 2em;
-            color: #333;
-        }
-
-        .projects h3 {
-            font-size: 3em;
-            margin-bottom: 20px;
             color: #333;
         }
 
@@ -183,16 +241,11 @@
                 flex-direction: column;
                 align-items: center;
             }
-            .profile {
+
+            .profile, .content {
                 width: 100%;
-                padding: 0;
-                margin-bottom: 20px;
             }
-            .content {
-                width: 100%;
-                text-align: center;
-                max-width: 100%;
-            }
+
             .grid-container {
                 grid-template-columns: repeat(1, 1fr);
             }
@@ -205,11 +258,21 @@
         <div class="container">
             <div class="profile">
                 <img src="https://avatars.githubusercontent.com/u/8879351?v=4" alt="RIYAS M">
+                <h2>Riyas M</h2>
+                <h3>ANDROID DEVELOPER</h3>
+                <div class="social-links">
+                   <a href="https://github.com/mriyas" target="_blank"><i class="fab fa-github"></i></a>
+                   <a href="https://stackoverflow.com/users/2082559/muhamed-riyas-m" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+                   <a href="https://uk.linkedin.com/in/riyaskokkur" target="_blank"><i class="fab fa-linkedin"></i></a>
+                   <a href="https://medium.com/@muhamed.riyas" target="_blank"><i class="fab fa-medium"></i></a>
+               </div>
+                  <div class="resume">
+                      <a href="https://github.com/mriyas">Resume</a>
+                  </div>
             </div>
             <div class="content">
-                <h2>Riyas M</h2>
-                <h3>Android Developer</h3>
-                <p>Results-oriented Android and Flutter developer with over a decade of experience, known for driving revenue generation and delivering high-quality mobile applications in fast-paced environments.
+                <p>Hai there,</p>
+                <p>I am results-oriented Android and Flutter developer with over a decade of experience, known for driving revenue generation and delivering high-quality mobile applications in fast-paced environments.
                   I have developed and launched over 20 Android apps and games, collectively achieving more than 2 million downloads and generating 1 million GBP in ad revenue.
                   I excel in conceptualizing app solutions using the latest technology, design theory, and creativity, and have successfully integrated Flutter to create cross-platform applications that enhance performance and user experience.</p>
 
