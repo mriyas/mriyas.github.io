@@ -19,9 +19,11 @@
             flex-direction: column;
             min-height: 100vh;
         }
-         .container {
+
+        .container {
             display: flex;
-            align-items: stretch; /* Stretch items to match each other's height */
+            flex-direction: row;
+            align-items: stretch;
             width: 100%;
             padding: 20px;
             max-width: 1200px;
@@ -36,32 +38,25 @@
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Center content vertically */
+            justify-content: center;
         }
+
         .profile img {
             width: 100%;
+            min-width: 300px;
             height: auto;
-            aspect-ratio: 1;
             border-radius: 10px;
         }
 
         .content {
-            width: 50%;
+            flex-grow: 1;
             max-width: 600px;
-            flex: 1;
             box-sizing: border-box;
         }
 
-/*        .projects h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-            color: #333; 
+        .content h2, .content h3 {
+            color: #555;
         }
-         .projects h3 {
-            font-size: 2em;
-            margin-bottom: 20px;
-            color: #333; 
-        } */
 
         .content p {
             line-height: 1.6;
@@ -98,11 +93,13 @@
             font-size: 2em;
             color: #333;
         }
+
         .projects h3 {
             font-size: 3em;
             margin-bottom: 20px;
             color: #333;
         }
+
         .grid-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -134,10 +131,9 @@
         }
 
         .project-title {
-            font-size: 3em;
+            font-size: 1.5em;
             margin: 0;
             color: #777;
-        }
         }
 
         .project-description {
@@ -179,9 +175,14 @@
             color: white;
             text-align: center;
             padding: 1em 0;
+            margin-top: auto;
         }
 
         @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
             .profile {
                 width: 100%;
                 padding: 0;
@@ -207,13 +208,13 @@
             </div>
             <div class="content">
                 <h2>Riyas M</h2>
-                <h3>Android Developer</h2>
+                <h3>Android Developer</h3>
                 <p>Results-oriented Android and Flutter developer with over a decade of experience, known for driving revenue generation and delivering high-quality mobile applications in fast-paced environments.
                   I have developed and launched over 20 Android apps and games, collectively achieving more than 2 million downloads and generating 1 million GBP in ad revenue.
                   I excel in conceptualizing app solutions using the latest technology, design theory, and creativity, and have successfully integrated Flutter to create cross-platform applications that enhance performance and user experience.</p>
 
                   <p>I thrive on collaborating with cross-functional teams to launch updates for Smart Home apps under tight deadlines, resulting in a 10% increase in user engagement and a 5% rise in app store ratings. My innovative advertising solutions have boosted ad revenue by 75% and yielded an 80% higher click-through rate compared to gaming industry benchmarks. I am dedicated to maintaining the highest standards of app development and continuously seeking new ways to improve and innovate.</p>
-                  
+
                 <a href="https://github.com/mriyas">View My GitHub</a>
             </div>
         </div>
