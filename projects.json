@@ -1,10 +1,10 @@
 [
     {
-        "title": "MyDyson",
-        "description": "A brief description of Project 1. It highlights the main features and purpose of the project.",
+        "title": "MyDyson™",
+        "description": "As a mobile app developer, I contributed to the development and enhancement of the MyDyson™ app, a comprehensive tool designed to elevate the user experience for Dyson machine owners. This project involved re-engineering the app to include tailored content and features for hair care machines and cordless vacuums, along with providing real-time air quality information and remote control capabilities for Dyson purifiers and humidifiers. My role focused on writing scalable, clean, and stable code, collaborating with cross-functional teams, and designing elegant UI components using Compose UI. Additionally, I worked on core connectivity features, enabling seamless management of multiple devices and facilitating user engagement through community integration.",
         "image": "https://play-lh.googleusercontent.com/L6sS1R-ea5F2HLIB8WlqvPuGG1Z8M9g-M5Ss36pDZdVQAXcoh6ODtqSURBzjbECGWdg",
-        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
-        "link": "https://play.google.com/store/apps/details?id=com.example1"
+        "tags": ["Kotlin", "Android", "Compose", "MVVM", "Clean Code", "Multi-module Project"],
+        "link": "https://play.google.com/store/apps/details?id=com.dyson.mobile.android&hl=en_GB"
     },
     {
         "title": "Project Title 2",
