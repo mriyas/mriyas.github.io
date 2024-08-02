@@ -7,11 +7,11 @@
         "link": "https://play.google.com/store/apps/details?id=com.dyson.mobile.android&hl=en_GB"
     },
     {
-        "title": "Project Title 2",
-        "description": "A brief description of Project 2. It highlights the main features and purpose of the project.",
-        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115829172/original/b5110a15b0e841171388b1dfffb5b5e5cb213e74/design-attractive-screenshots-for-app-store.png",
+        "title": "Lumos Controls",
+        "description": "As an initial team member of the Lumos Control startup project, I played a pivotal role in its development and evolution. The project began with Java and later transitioned to Kotlin, employing MVP and MVVM architectures. I was instrumental in building and leading the team, conducting interviews, providing mentorship, and driving technical innovation. Key contributions included integrating advanced tech features such as BLE, MQTT, WiFi, TCP/IP protocols, and HTTP/REST API calls. I also developed a standalone smart home IoT SDK, enabling the company to rebrand the app for multiple clients, including Samsung, Jio, and Philips.",
+        "image": "https://media.licdn.com/dms/image/C5622AQEOJ4JX5i314w/feedshare-shrink_800/0/1660945928778?e=2147483647&v=beta&t=8aVsbd_GoSUKRC-EFYIwkltnHtjWs67rBzL08BjIaLw",
         "tags": ["Kotlin", "Android", "Compose", "MVVM"],
-        "link": "https://play.google.com/store/apps/details?id=com.example2"
+        "link": "https://play.google.com/store/apps/details?id=com.wisilica.Home&hl=en_GB"
     },
     {
         "title": "Project Title 3",
