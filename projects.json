@@ -9,7 +9,8 @@
       "https://play-lh.googleusercontent.com/CHt4OWe8UvO0Qau4j9Tq5ztaX2-soZBs4oD6OQY8Q_RBQOFM516NYtLbqE6rO7RtwA=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/r4Q9zi9RhFY233FBDpZjAE6yUN_b8iMJ7kpdjR3dBN9srcWD6R1oMPBCNnl7pSn-KuOv=w1052-h592-rw",
       "https://play-lh.googleusercontent.com/pdLAQq0sGWDJJom5VEk1yWcbPgWbz4MCUWkkONDCWjEimscnGRMOOJDAPH1Ztt429z8=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/UAEzyITJoLjwH0Z6EIoBb2l5LhHURY8zvBuVnUzrU9QyxheUxHuHHYMw8uDeylIHQg=w1052-h592-rw"
+      "https://play-lh.googleusercontent.com/UAEzyITJoLjwH0Z6EIoBb2l5LhHURY8zvBuVnUzrU9QyxheUxHuHHYMw8uDeylIHQg=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/Xyu4avVz_VoGsD4gGxV4NQH4EHObnsxdA-pNiDpq3PmyOzFBaB2t4AG4P0hJBWE6RCA=w1052-h592-rw"
     ],
     "highlighs": [
       "Implemented new features in MyDyson app using Kotlin, Jetpack compose, Android Navigation Component based on modern Android development tools and principles like MVVM, Kotlin-coroutine, Flow, RxJava, Dagger/Hilt/Koin, Retrofit and Room",
@@ -80,5 +81,43 @@
       "Promoted development best practices, patterns and standards"
     ],
     "link": "https://play.google.com/store/apps/details?id=com.wisilica.Home&hl=en_GB"
+  },
+  {
+    "id": 3,
+    "title": "Muslim Prime",
+    "short_desc": "Muslim Prime is the ultimate mobile application designed to cater to the spiritual and daily needs of Muslims worldwide. This all-in-one app offers a suite of features tailored to support Muslims in their religious practices, making it an indispensable tool for enhancing your daily spiritual journey.",
+    "description": "Muslim Prime is a cutting-edge mobile application crafted to address the spiritual and practical needs of Muslims worldwide. Developed with Flutter, the app provides essential features such as prayer times, Quranic readings, and daily Islamic reminders. The project leverages Firebase Cloud Firestore and Realtime Database for backend operations, and includes an admin panel built with Flutter Web for streamlined content management.",
+    "image": "https://play-lh.googleusercontent.com/444SlG1iSxy85MvZvJqr4Rjrk7MzWTStNS0kXaNtyuwDUSO3o_ZSggcCWS4krZWMEd8=w480-h960-rw",
+    "images": [
+      "https://play-lh.googleusercontent.com/5uDrf65AScJId635wwiaM4ML97cE_3_izDojErfKWnnvu1062hx9uuVo_2ZMTUjys5g=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/-NxTX2DVsyXqwht9BWWQXsjvm_-LaYonPbdEICgh5YlGURd6jUqUDmeLg0rrwlk7A6Y=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/cov99uDxV64cQ7fO2sNv2hhhxZkt53mOUJQTAXETLP64x7OF3WB-Syko0GvPADrmJQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/iyBrSDunFS8udCMeJa7RUrrBG5fRUb_eVmI67PxTUyZsKDWV3VzvxmiicYktO3pRScVA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/MXBsvBL1GyBJnkFJosPkqHD8ibtO2hnLe-sZXuMclgry5lZIhUwneG5U1gGIQHymoNZS=w1052-h592-rw"
+    ],
+    "tags": [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Firebase",
+      "Firebase Authentication",
+      "Firbase Realtiem Database",
+      "FCM",
+      "Flutter Web",
+      "Code Review"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.dyson.mobile.android&hl=en_GB",
+    "link_ios": "https://apps.apple.com/us/app/muslim-prime/id6479201511",
+    "highlighs": [
+      "<b>Leadership and Architecture:</b> Spearheaded the development of Muslim Prime, designing the app’s architecture with the BLoC pattern to ensure a clean, scalable, and maintainable codebase.",
+      "<b>Coding and Development:</b> Actively engaged in hands-on coding, implementing core features, and ensuring high-quality code. Developed key functionalities such as prayer time calculations and real-time notifications.",
+      "<b>Pair Programming:</b> Collaborated closely with a co-developer through pair programming sessions to efficiently tackle complex development tasks, enhance code quality, and foster collaborative problem-solving.",
+      "<b>Code Review and Quality Assurance:</b> Performed comprehensive code reviews to enforce coding standards, identify and resolve issues, and optimize performance. Provided constructive feedback and mentorship to the co-developer, improving overall code quality and maintainability.",
+      "<b>Backend Integration:</b> Integrated Firebase Cloud Firestore and Realtime Database for backend operations, enabling real-time data updates and seamless synchronization across the app.",
+      "<b>Admin Panel Development:</b> Designed and developed an admin panel using Flutter Web, facilitating effective content management and user interaction for app administrators.",
+      "<b>Deployment and ASO:</b> Managed the deployment of the app to Google Play Store and Apple App Store, implementing App Store Optimization (ASO) techniques that drove 50K downloads within three months without major advertising campaigns.",
+      "<b>Documentation and Best Practices:</b> Created detailed documentation for codebase and development processes, establishing best practices for future development and easing onboarding for new team members.",
+      "<b>Testing and Debugging:</b> Led the testing and debugging phases, ensuring the app's functionality across various devices and operating systems. Implemented automated testing strategies to enhance reliability and user experience."
+    ]
   }
 ]
