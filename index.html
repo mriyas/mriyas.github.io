@@ -210,7 +210,7 @@
         }
 
         .project-tags {
-            margin: 10px 10px 10px 10px;
+            margin: 10px 10px;
             font-size: 0.9em;
             color: #999;
         }
@@ -221,6 +221,11 @@
             background-color: #f4f4f4;
             padding: 5px;
             border-radius: 5px;
+            margin-top: 5px; /* Add top margin to all tags */
+        }
+
+        .project-tags span:nth-child(n+4) {
+            margin-top: 10px; /* Adjust the margin to add more space if it wraps */
         }
 
         .project-link {
