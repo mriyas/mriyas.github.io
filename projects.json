@@ -1,24 +1,63 @@
 [
-    {
-        "id": 1,
-        "title": "MyDyson™",
-        "short_desc": "As a mobile app developer, I contributed to the development and enhancement of the MyDyson™ app, a comprehensive tool designed to elevate the user experience for Dyson machine owners.",
-        "description": "As a mobile app developer, I contributed to the development and enhancement of the MyDyson™ app, a comprehensive tool designed to elevate the user experience for Dyson machine owners. This project involved re-engineering the app to include tailored content and features for hair care machines and cordless vacuums, along with providing real-time air quality information and remote control capabilities for Dyson purifiers and humidifiers. My role focused on writing scalable, clean, and stable code, collaborating with cross-functional teams, and designing elegant UI components using Compose UI. Additionally, I worked on core connectivity features, enabling seamless management of multiple devices and facilitating user engagement through community integration.",
-        "image": "https://play-lh.googleusercontent.com/L6sS1R-ea5F2HLIB8WlqvPuGG1Z8M9g-M5Ss36pDZdVQAXcoh6ODtqSURBzjbECGWdg",
-        "images": ["https://imag1.png", "https://imag2.png","https://imag3.png", "https://imag4.png"],
-        "highlighs": ["Kotlin", "Android", "Compose", "MVVM", "Clean Code", "Multi-module Project"],
-        "tags": ["Kotlin", "Android", "Compose", "MVVM", "Clean Code", "Multi-module Project"],
-        "link": "https://play.google.com/store/apps/details?id=com.dyson.mobile.android&hl=en_GB"
-    },
-    {
-        "id": 2,
-        "title": "Lumos Controls",
-        "short_desc": "As an initial team member of the Lumos Control startup project, I played a pivotal role in its development and evolution. The project began with Java and later transitioned to Kotlin",
-        "description": "As an initial team member of the Lumos Control startup project, I played a pivotal role in its development and evolution. The project began with Java and later transitioned to Kotlin, employing MVP and MVVM architectures. I was instrumental in building and leading the team, conducting interviews, providing mentorship, and driving technical innovation. Key contributions included integrating advanced tech features such as BLE, MQTT, WiFi, TCP/IP protocols, and HTTP/REST API calls. I also developed a standalone smart home IoT SDK, enabling the company to rebrand the app for multiple clients, including Samsung, Jio, and Philips.",
-        "image": "https://i.ytimg.com/vi/hxt6UeHBp3U/hqdefault.jpg",
-        "tags": ["Kotlin", "Android", "Compose", "MVVM"],
-        "images": ["https://imag1.png", "https://imag2.png","https://imag3.png", "https://imag4.png"],
-        "highlighs": ["Kotlin", "Android", "Compose", "MVVM", "Clean Code", "Multi-module Project"],
-        "link": "https://play.google.com/store/apps/details?id=com.wisilica.Home&hl=en_GB"
-    }
+  {
+    "id": 1,
+    "title": "MyDyson™",
+    "short_desc": "As a mobile app developer, I contributed to the development and enhancement of the MyDyson™ app, a comprehensive tool designed to elevate the user experience for Dyson machine owners.",
+    "description": "As a mobile app developer, I contributed to the development and enhancement of the MyDyson™ app, a comprehensive tool designed to elevate the user experience for Dyson machine owners. This project involved re-engineering the app to include tailored content and features for hair care machines and cordless vacuums, along with providing real-time air quality information and remote control capabilities for Dyson purifiers and humidifiers. My role focused on writing scalable, clean, and stable code, collaborating with cross-functional teams, and designing elegant UI components using Compose UI. Additionally, I worked on core connectivity features, enabling seamless management of multiple devices and facilitating user engagement through community integration.",
+    "image": "https://play-lh.googleusercontent.com/L6sS1R-ea5F2HLIB8WlqvPuGG1Z8M9g-M5Ss36pDZdVQAXcoh6ODtqSURBzjbECGWdg",
+    "images": [
+      "https://www.afthomas.co.uk/media/dyson/product_content/HP7A-variant-feature-app.jpg",
+      "https://play-lh.googleusercontent.com/L6sS1R-ea5F2HLIB8WlqvPuGG1Z8M9g-M5Ss36pDZdVQAXcoh6ODtqSURBzjbECGWdg",
+      "https://i.pcmag.com/imagery/reviews/06bMIelPzEC9VLxA3pwmJK0-17..v1682438860.png",
+      "https://reviewed-com-res.cloudinary.com/image/fetch/s--04p-2bO6--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1710801592000/20240314_Dysonvachero.jpg"
+    ],
+    "highlighs": [
+      "Implemented new features in MyDyson app using Kotlin, Jetpack compose, Android Navigation Component based on modern Android development tools and principles like MVVM, Kotlin-coroutine, Flow, RxJava, Dagger/Hilt/Koin, Retrofit and Room",
+      "Enhanced user satisfaction to 95% by fixing connectivity issues in Dyson connected products by optimizing Bluetooth Low Energy (BLE) connections and introducing a backoff retransmission mechanism.",
+      "Innovated paparazzi snapshot wrapper for comprehensive testing of Jetpack Compose UI elements covering all UI/UX states saving substantial development time, ensuring no missed test cases, and achieving 100% test coverage",
+      "Introduced an engineering UI to troubleshoot Dyson-connected product issues faced by the QA/stakeholders, enabling cross-team developers to quickly identify and assign bugs to the relevant teams",
+      "Reduced Java source base to 2% in a multi-module project by re-writing Java code to Kotlin during my innovative time.",
+      "Authored reusable, self-documenting, high-performing code and participated in code reviews and pair programming to ensure 100% code quality and maintainability",
+      "Assisted QA to setup, build and test frameworks such as Junit, Espresso, and Paparazzi",
+      "Collaborated with cross-functional teams (UI/UX team, Embedded, Cloud, and QA) across multiple geographies to define, design, and ship new features",
+      "Experienced in Agile environment and presented sprint demos and technical sessions to stakeholders in community meetings."
+    ],
+    "tags": [
+      "Kotlin",
+      "Android",
+      "Compose",
+      "MVVM",
+      "Clean Code",
+      "Multi-module Project"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.dyson.mobile.android&hl=en_GB"
+  },
+  {
+    "id": 2,
+    "title": "Lumos Controls",
+    "short_desc": "As an initial team member of the Lumos Control startup project, I played a pivotal role in its development and evolution. The project began with Java and later transitioned to Kotlin",
+    "description": "As an initial team member of the Lumos Control startup project, I played a pivotal role in its development and evolution. The project began with Java and later transitioned to Kotlin, employing MVP and MVVM architectures. I was instrumental in building and leading the team, conducting interviews, providing mentorship, and driving technical innovation. Key contributions included integrating advanced tech features such as BLE, MQTT, WiFi, TCP/IP protocols, and HTTP/REST API calls. I also developed a standalone smart home IoT SDK, enabling the company to rebrand the app for multiple clients, including Samsung, Jio, and Philips.",
+    "image": "https://i.ytimg.com/vi/hxt6UeHBp3U/hqdefault.jpg",
+    "tags": [
+      "Kotlin",
+      "Android",
+      "Compose",
+      "MVVM"
+    ],
+    "images": [
+      "https://imag1.png",
+      "https://imag2.png",
+      "https://imag3.png",
+      "https://imag4.png"
+    ],
+    "highlighs": [
+      "Kotlin",
+      "Android",
+      "Compose",
+      "MVVM",
+      "Clean Code",
+      "Multi-module Project"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.wisilica.Home&hl=en_GB"
+  }
 ]
