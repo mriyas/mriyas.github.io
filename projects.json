@@ -187,15 +187,15 @@
     "link": "https://play.google.com/store/apps/details?id=com.loopi.wordswagon&hl=en_GB&gl=US",
     "highlighs": [
       "<b>Game Design and Development:<b> Led the design and development of Word Wagon using Unity and C#, focusing on creating an engaging word puzzle experience with intuitive gameplay mechanics.",
-      "<b>Word Puzzle Mechanics:<b> Implemented core gameplay features, including letter connection, word formation, and streak tracking, ensuring a challenging and rewarding player experience.",
-      "<b>User Interface (UI) Design:<b> Designed and developed a user-friendly interface, including menus, game boards, and feedback systems, to enhance the overall player experience.",
-      "<b>Animation and Visuals:<b> Created and integrated animations and visual effects to make gameplay visually appealing and interactive. Implemented animations for letter movements and word formations.",
-      "<b>Performance Optimization:<b> Optimized game performance to ensure smooth gameplay, including efficient resource management and responsive interactions.",
-      "<b>Testing and Debugging:<b> Conducted thorough testing to identify and resolve bugs, ensuring the game functions correctly and provides a seamless experience across various devices.",
-      "<b>Version Control:<b> Utilized version control systems like Git to manage and track changes in the codebase, facilitating collaboration and maintaining project history.",
-      "<b>Collaborative Development:<b> Worked closely with a co-developer, sharing tasks and collaborating on feature implementation, problem-solving, and overall game development.",
-      "<b>Game Balancing:<b> Designed and adjusted difficulty levels and game progression to provide a balanced challenge and maintain player engagement.",
-      "<b>Educational Value:<b> Focused on creating an educational yet entertaining game that helps players learn new words and improve their vocabulary skills."
+      "<b>Word Puzzle Mechanics:</b> Implemented core gameplay features, including letter connection, word formation, and streak tracking, ensuring a challenging and rewarding player experience.",
+      "<b>User Interface (UI) Design:</b> Designed and developed a user-friendly interface, including menus, game boards, and feedback systems, to enhance the overall player experience.",
+      "<b>Animation and Visuals:</b> Created and integrated animations and visual effects to make gameplay visually appealing and interactive. Implemented animations for letter movements and word formations.",
+      "<b>Performance Optimization:</b> Optimized game performance to ensure smooth gameplay, including efficient resource management and responsive interactions.",
+      "<b>Testing and Debugging:</b> Conducted thorough testing to identify and resolve bugs, ensuring the game functions correctly and provides a seamless experience across various devices.",
+      "<b>Version Control:</b> Utilized version control systems like Git to manage and track changes in the codebase, facilitating collaboration and maintaining project history.",
+      "<b>Collaborative Development:</b> Worked closely with a co-developer, sharing tasks and collaborating on feature implementation, problem-solving, and overall game development.",
+      "<b>Game Balancing:</b> Designed and adjusted difficulty levels and game progression to provide a balanced challenge and maintain player engagement.",
+      "<b>Educational Value:</b> Focused on creating an educational yet entertaining game that helps players learn new words and improve their vocabulary skills."
     ]
   }
 ]
