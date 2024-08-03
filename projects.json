@@ -121,41 +121,43 @@
     ]
   },
   {
-    "id": 4,
-    "title": "Pico-Bead Match Puzzle Game",
-    "short_desc": "Pico-Bead Match Puzzle Game is an engaging and strategic alignment board game developed using Unity and C#. The game challenges players to strategically arrange beads in a diagonal pattern to form alignments, akin to classic board games like tic-tac-toe, Picaria, and Shisima. The objective is to create a three-in-a-row arrangement by moving pieces on the board, offering both single-player and multiplayer experiences.",
-    "description": "Pico-Bead Match Puzzle Game is an engaging and strategic alignment board game developed using Unity and C#. The game challenges players to strategically arrange beads in a diagonal pattern to form alignments, akin to classic board games like tic-tac-toe, Picaria, and Shisima. The objective is to create a three-in-a-row arrangement by moving pieces on the board, offering both single-player and multiplayer experiences.<br><br>Developed with the Unity engine, the game features intuitive controls, smooth animations, and a visually appealing interface. The project involved collaboration with a co-developer, focusing on creating a compelling and enjoyable gaming experience through meticulous design and development",
-    "image": "https://play-lh.googleusercontent.com/bjC2SFdc8RbbBcLwUpQMT50ycKres-lmbF_pTg5zdfwQgoHiBaqDG5av8jpzvDyrWQk=w1052-h592-rw",
+    "id": 5,
+    "title": "Words Wagon Game",
+    "short_desc": "Words Wagon is an engaging and stimulating word game designed to challenge and entertain players while enhancing their vocabulary skills. Developed using Unity and C#, Word Wagon invites players to connect letters, form words, and achieve high word streaks. This game provides an enjoyable and educational experience, making learning new words both fun and addictive.",
+    "description": "Words Wagon is an engaging and stimulating word game designed to challenge and entertain players while enhancing their vocabulary skills. Developed using Unity and C#, Word Wagon invites players to connect letters, form words, and achieve high word streaks. This game provides an enjoyable and educational experience, making learning new words both fun and addictive.<br><br>Players can embark on a journey of word discovery, sharpening their language skills through increasingly complex puzzles. With its intuitive gameplay and vibrant visuals, Word Wagon is ideal for players who enjoy word puzzles and want to keep their minds active and engaged.",
+    "image": "https://play-lh.googleusercontent.com/cEnke4pBE4HosNJ3lxdVQo2yZ20BMvBk0N_wp9-Wpp9rIPooYHxSBS4oXmmKyeF8Nlk=w1052-h592-rw",
     "images": [
-      "https://play-lh.googleusercontent.com/XbJ4oapAiakteLbSBAJAiBwxbr5cA2zjGX_kFUlsD5NvP66znHA7MNQV5kqO_qWTs4w=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/_DKi4MeuKUcQYoHC3pNsejZkCyb657ap38eO1nNYYPUxGKxhqjHdb5kJEWwXTCCZBAg=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/VSE3SZEIITg5AvNHvpaNHxFZmF7N-93CT3Kxka7mEtKxup5op6NIgUdJTxe_vch8Sw=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/ZuPMXl6bOTWh8whgxlHV0EoarEyhOe4uHv38X9ESzurdgnEhyPG5G-vIZwsxVZxJsg=w1052-h592-rw",
-      "https://play-lh.googleusercontent.com/m0orqlTEedZlunru7jfo5xrYAPyuiwE1m6Vh7_KJrWTpfz2Pjl9yqDcDHGgjtdhG3Gp4=w1052-h592-rw"
+      "https://play-lh.googleusercontent.com/JATl56ujxAAt_DyFdafi0--SUn8YdX3g-YW_-JeLUDYcGH7YY8p5Bh8Vr6pkP4ts5w=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/Bjh38FXBkrpKL4VGEqxdseS6UVNKjmZfhaGI4gRM4PnUxrp8s5_3jqf7YaQUVvF9nw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/asR1gOfEUaXywtXfUD-PFrMe57vgUq9vTBp-pf444TFPlbK9Dcx5oEzxg_qRCiXNXMty=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/4O9QrTiFmgli7TcSPysJGGgBg_LS8edPoHaEG0C_7hZvXf6noEVzXDJe7KceUNgsTr8=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/nxee6pqvsTok85y00T46GBfAkWDxdVUx2L3L_-FuDCIHK2ebZnKSVC4cOfdlsHBX6lk=w1052-h592-rw"
     ],
     "tags": [
       "Unity",
       "C#",
-      "Game Mechanics",
+      "Word Puzzle Mechanics",
       "2D Game Development",
       "Animation",
       "User Interface (UI)",
       "Game Design",
       "Performance Optimization",
       "Collaborative Programming",
-      "Game Testing"
+      "Educational Game",
+      "Game Debugging"
     ],
-    "link": "https://play.google.com/store/apps/details?id=com.savvygames.pico&hl=en_GB",
+    "link": "https://play.google.com/store/apps/details?id=com.loopi.wordswagon&hl=en_GB&gl=US",
     "highlighs": [
-      "<b>Game Design and Development:</b> Led the design and development of Pico-Bead Match Puzzle Game, utilizing Unity and C# to create a polished and interactive board game experience.",
-      "<b>Coding and Implementation:</b> Developed core game mechanics and features using C# in Unity, including piece movement, alignment detection, and game logic. Implemented gameplay features to ensure a smooth and engaging user experience.",
-      "<b>Collaborative Development:</b> Worked closely with a co-developer through pair programming and regular collaboration sessions. Shared responsibilities in coding, problem-solving, and feature implementation, ensuring a cohesive and high-quality game.",
-      "<b>User Interface Design:</b> Designed and implemented an intuitive and user-friendly interface within Unity, focusing on ease of use and visual appeal to enhance player engagement.",
-      "<b>Animation and Visuals:</b> Created and integrated animations for piece movement and game interactions, contributing to a dynamic and visually attractive game environment.",
-      "<b>Testing and Debugging:</b> Conducted extensive testing to identify and fix bugs, ensuring the game runs smoothly across different devices and scenarios. Implemented debugging techniques to address and resolve performance issues.",
-      "<b>Performance Optimization:</b> Optimized game performance to ensure smooth gameplay, including efficient resource management and responsive controls.",
-      "<b>Version Control and Documentation:</b> Utilized version control systems like Git for managing source code and maintaining project history. Created comprehensive documentation for the game's development process and features.",
-      "<b>Project Management:</b> Coordinated project milestones and deadlines, ensuring timely delivery of game features and adherence to development schedules."
+      "<b>Game Design and Development:<b> Led the design and development of Word Wagon using Unity and C#, focusing on creating an engaging word puzzle experience with intuitive gameplay mechanics.",
+      "<b>Word Puzzle Mechanics:<b> Implemented core gameplay features, including letter connection, word formation, and streak tracking, ensuring a challenging and rewarding player experience.",
+      "<b>User Interface (UI) Design:<b> Designed and developed a user-friendly interface, including menus, game boards, and feedback systems, to enhance the overall player experience.",
+      "<b>Animation and Visuals:<b> Created and integrated animations and visual effects to make gameplay visually appealing and interactive. Implemented animations for letter movements and word formations.",
+      "<b>Performance Optimization:<b> Optimized game performance to ensure smooth gameplay, including efficient resource management and responsive interactions.",
+      "<b>Testing and Debugging:<b> Conducted thorough testing to identify and resolve bugs, ensuring the game functions correctly and provides a seamless experience across various devices.",
+      "<b>Version Control:<b> Utilized version control systems like Git to manage and track changes in the codebase, facilitating collaboration and maintaining project history.",
+      "<b>Collaborative Development:<b> Worked closely with a co-developer, sharing tasks and collaborating on feature implementation, problem-solving, and overall game development.",
+      "<b>Game Balancing:<b> Designed and adjusted difficulty levels and game progression to provide a balanced challenge and maintain player engagement.",
+      "<b>Educational Value:<b> Focused on creating an educational yet entertaining game that helps players learn new words and improve their vocabulary skills."
     ]
   }
 ]
