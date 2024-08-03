@@ -197,5 +197,50 @@
       "<b>Game Balancing:</b> Designed and adjusted difficulty levels and game progression to provide a balanced challenge and maintain player engagement.",
       "<b>Educational Value:</b> Focused on creating an educational yet entertaining game that helps players learn new words and improve their vocabulary skills."
     ]
+  },
+  {
+    "id": 6,
+    "title": "GMDC (Galadari Motor Driving Centre)",
+    "short_desc": "GMDC (Galadari Motor Driving Centre) is a comprehensive mobile application designed to streamline the driving license acquisition process for Dubai residents. Developed using Flutter, this interactive app caters to both prospective drivers and current GMDC students.",
+    "description": "GMDC (Galadari Motor Driving Centre) is a comprehensive mobile application designed to streamline the driving license acquisition process for Dubai residents. Developed using Flutter, this interactive app caters to both prospective drivers and current GMDC students. It provides a range of features to simplify the journey from course registration to license attainment, including online payments, scheduling, e-learning, and progress tracking. <br><br>The app enhances user experience by offering a centralized platform for managing all aspects of driving school interactions, making it easier for users to navigate their driving education and training.",
+    "image": "https://play-lh.googleusercontent.com/eVjaF10UDsLwtPLu3uFibcGfhyf0W9lqDdg7opuE1NE5ls-zJjeyhLPaG_MyWWC09LN6=w480-h960-rw",
+    "images": [
+      "https://play-lh.googleusercontent.com/vzd8q9eyElKdxZMd4W3JWNsUsq_zYXAFjyrq8xFGJ85UOSSOHZVtgY-88wDFiNwY2Bs=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/7YYn9RcvBO15U5aQqCVwxqNOx0fG3PUwKcldYqxxhcwE7ZKbOAI8-qM_XoQlR0rleWI=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/JpLCEiukHlr4XOLDri7gNWq-i_qRMUnnerCT-LAR3xjXa5k3dU05z0jAIZuzzJSoSuA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/M7jlio9AVTsTHZISVfgFE6Id3rhlYSBim9qD1o_3soIVzyq0RaWonv_bpWiBC-cse58=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/X9SUf-Cxk0lsrNNegQ6F3PROZsqOrxZhdYTrsWV1OtZy4MyG4JW7QGcexOyhfI8JFiY=w1052-h592-rw"
+    ],
+    "tags": [
+      "Flutter",
+      "Dart",
+      "REST API",
+      "UI/UX Design",
+      "Online Payments",
+      "GCM",
+      "Code Review",
+      "Scheduling",
+      "Version Control",
+      "BLoC",
+      "Testing And Debugging"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.drivingapp&hl=en_GB&gl=US",
+    "link_ios": "https://apps.apple.com/gb/app/galadari-motor-driving-app/id1571248683",
+    "highlighs": [
+      "<b>App Design and Architecture:</b> Led the design and architectural planning of the GMDC app, utilizing Flutter to create a responsive and user-friendly interface.",
+      "<b>Online Registration:</b> Developed the functionality for users to register online for driving license courses.",
+      "<b>Course Discovery:</b> Implemented features for exploring different driving courses and offers available at GMDC.",
+      "<b>Branch Locations:</b> Integrated location services to help users find GMDC branch locations.",
+      "<b>Online Payments:</b> Enabled secure online fee payments through the app.",
+      "<b>E-Learning Integration:</b> Implemented online lecture functionality for e-learning, allowing users to attend classes conveniently.",
+      "<b>Class Scheduling:</b> Built features for booking and managing training classes, including tracking schedules and receiving reminders.",
+      "<b>Test Appointment Booking:</b> Developed functionality for booking and tracking test appointments, including reminders for assessments.",
+      "<b>Fee Tracking:</b> Created features for tracking fee details and overall progress in the driving license journey.",
+      "<b>UI/UX Design:</b> Designed and implemented an intuitive user interface with Flutter, ensuring a seamless and engaging experience for users.",
+      "<b>Testing and Quality Assurance:</b> Conducted rigorous testing to identify and resolve bugs, ensuring the app’s reliability and smooth performance across various devices.",
+      "<b>Code Review and Maintenance:</b> Performed code reviews to maintain high code quality, and managed ongoing maintenance and updates for the app.",
+      "<b>Version Control:</b> Used version control tools like Git to manage and track changes, facilitating collaborative development and project management.",
+      "<b>Project Management:</b> Coordinated with team members to ensure timely delivery of features and adherence to project milestones."
+    ]
   }
 ]
