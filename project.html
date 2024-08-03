@@ -44,12 +44,6 @@
             cursor: pointer;
         }
 
-        .project-details img {
-            width: 100%;
-            height: auto;
-            margin: 10px 0;
-        }
-
         .project-details h2 {
             font-size: 1.5em;
             margin: 10px 0;
@@ -74,12 +68,33 @@
             font-weight: 300;
         }
 
+        .images-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
+        }
+
+        .images-container img {
+            flex: 1 1 calc(20% - 10px);
+            max-width: calc(20% - 10px);
+            height: auto;
+            margin: 5px 0;
+        }
+
         .footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 1em 0;
             margin-top: auto;
+        }
+
+        @media screen and (max-width: 600px) {
+            .images-container img {
+                flex: 1 1 calc(50% - 10px);
+                max-width: calc(50% - 10px);
+            }
         }
     </style>
 </head>
@@ -108,7 +123,9 @@
                     document.getElementById('project-details').innerHTML = `
                         <h2>${project.title}</h2>
                         <p>${project.description}</p>
-                        ${project.images.map(image => `<img src="${image}" alt="${project.title} Image">`).join('')}
+                        <div class="images-container">
+                            ${project.images.map(image => `<img src="${image}" alt="${project.title} Image">`).join('')}
+                        </div>
                         <ul>
                             ${project.highlighs.map(highlight => `<li>${highlight}</li>`).join('')}
                         </ul>
