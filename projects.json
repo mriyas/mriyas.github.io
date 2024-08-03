@@ -6,10 +6,10 @@
     "description": "As a mobile app developer, I contributed to the development and enhancement of the MyDyson™ app, a comprehensive tool designed to elevate the user experience for Dyson machine owners. This project involved re-engineering the app to include tailored content and features for hair care machines and cordless vacuums, along with providing real-time air quality information and remote control capabilities for Dyson purifiers and humidifiers. My role focused on writing scalable, clean, and stable code, collaborating with cross-functional teams, and designing elegant UI components using Compose UI. Additionally, I worked on core connectivity features, enabling seamless management of multiple devices and facilitating user engagement through community integration.",
     "image": "https://play-lh.googleusercontent.com/L6sS1R-ea5F2HLIB8WlqvPuGG1Z8M9g-M5Ss36pDZdVQAXcoh6ODtqSURBzjbECGWdg",
     "images": [
-      "https://www.afthomas.co.uk/media/dyson/product_content/HP7A-variant-feature-app.jpg",
-      "https://play-lh.googleusercontent.com/L6sS1R-ea5F2HLIB8WlqvPuGG1Z8M9g-M5Ss36pDZdVQAXcoh6ODtqSURBzjbECGWdg",
-      "https://i.pcmag.com/imagery/reviews/06bMIelPzEC9VLxA3pwmJK0-17..v1682438860.png",
-      "https://reviewed-com-res.cloudinary.com/image/fetch/s--04p-2bO6--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1710801592000/20240314_Dysonvachero.jpg"
+      "https://play-lh.googleusercontent.com/CHt4OWe8UvO0Qau4j9Tq5ztaX2-soZBs4oD6OQY8Q_RBQOFM516NYtLbqE6rO7RtwA=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/r4Q9zi9RhFY233FBDpZjAE6yUN_b8iMJ7kpdjR3dBN9srcWD6R1oMPBCNnl7pSn-KuOv=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/pdLAQq0sGWDJJom5VEk1yWcbPgWbz4MCUWkkONDCWjEimscnGRMOOJDAPH1Ztt429z8=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/UAEzyITJoLjwH0Z6EIoBb2l5LhHURY8zvBuVnUzrU9QyxheUxHuHHYMw8uDeylIHQg=w1052-h592-rw"
     ],
     "highlighs": [
       "Implemented new features in MyDyson app using Kotlin, Jetpack compose, Android Navigation Component based on modern Android development tools and principles like MVVM, Kotlin-coroutine, Flow, RxJava, Dagger/Hilt/Koin, Retrofit and Room",
