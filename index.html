@@ -314,7 +314,7 @@
             .then(projects => {
                 function createProjectCard(project) {
                     return `
-                        <div class="project-card">
+                         <div class="project-card">
                             <img src="${project.image}" alt="${project.title} Image">
                             <div class="project-info">
                                 <h3 class="project-title">${project.title}</h3>
@@ -323,6 +323,7 @@
                                     ${project.tags.map(tag => `<span>${tag}</span>`).join('')}
                                 </div>
                                 <a href="${project.link}" class="project-link">View on Play Store</a>
+                                <a href="project.html?title=${encodeURIComponent(project.title)}" class="project-link">More Info</a>
                             </div>
                         </div>
                     `;
