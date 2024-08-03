@@ -90,29 +90,44 @@
             margin-top: auto;
         }
 
-        .download-button {
+        .download-buttons {
             display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .download-button {
+            display: inline-flex;
             align-items: center;
             justify-content: center;
-            margin: 20px 0;
             padding: 10px 20px;
             background-color: #3cba54;
             color: #fff;
             border: none;
             border-radius: 5px;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1em;
             font-weight: bold;
         }
 
-        .download-button i {
+        .download-button img {
             margin-right: 10px;
+            height: 20px;
         }
 
         @media screen and (max-width: 600px) {
             .images-container img {
                 flex: 1 1 calc(50% - 10px);
                 max-width: calc(50% - 10px);
+            }
+
+            .download-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .download-button {
+                margin-bottom: 10px;
             }
         }
     </style>
@@ -148,9 +163,15 @@
                         <ul>
                             ${project.highlighs.map(highlight => `<li>${highlight}</li>`).join('')}
                         </ul>
-                        <a href="${project.link}" class="download-button" target="_blank">
-                            <i class="fab fa-google-play"></i>Download on Play Store
-                        </a>
+                        <div class="download-buttons">
+                            <a href="${project.link}" class="download-button" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">Google Play
+                            </a>
+                            ${project.ios_link ? `
+                            <a href="${project.ios_link}" class="download-button" style="background-color: #0070c9;">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store">App Store
+                            </a>` : ''}
+                        </div>
                     `;
                 } else {
                     document.getElementById('project-details').innerHTML = '<p>Project not found.</p>';
