@@ -1,6 +1,7 @@
 [
     {
         "title": "MyDyson™",
+        "short_desc": "As a mobile app developer, I contributed to the development and enhancement of the MyDyson™ app, a comprehensive tool designed to elevate the user experience for Dyson machine owners.",
         "description": "As a mobile app developer, I contributed to the development and enhancement of the MyDyson™ app, a comprehensive tool designed to elevate the user experience for Dyson machine owners. This project involved re-engineering the app to include tailored content and features for hair care machines and cordless vacuums, along with providing real-time air quality information and remote control capabilities for Dyson purifiers and humidifiers. My role focused on writing scalable, clean, and stable code, collaborating with cross-functional teams, and designing elegant UI components using Compose UI. Additionally, I worked on core connectivity features, enabling seamless management of multiple devices and facilitating user engagement through community integration.",
         "image": "https://play-lh.googleusercontent.com/L6sS1R-ea5F2HLIB8WlqvPuGG1Z8M9g-M5Ss36pDZdVQAXcoh6ODtqSURBzjbECGWdg",
         "tags": ["Kotlin", "Android", "Compose", "MVVM", "Clean Code", "Multi-module Project"],
@@ -8,6 +9,7 @@
     },
     {
         "title": "Lumos Controls",
+        "short_desc": ""As an initial team member of the Lumos Control startup project, I played a pivotal role in its development and evolution. The project began with Java and later transitioned to Kotlin",
         "description": "As an initial team member of the Lumos Control startup project, I played a pivotal role in its development and evolution. The project began with Java and later transitioned to Kotlin, employing MVP and MVVM architectures. I was instrumental in building and leading the team, conducting interviews, providing mentorship, and driving technical innovation. Key contributions included integrating advanced tech features such as BLE, MQTT, WiFi, TCP/IP protocols, and HTTP/REST API calls. I also developed a standalone smart home IoT SDK, enabling the company to rebrand the app for multiple clients, including Samsung, Jio, and Philips.",
         "image": "https://i.ytimg.com/vi/hxt6UeHBp3U/hqdefault.jpg",
         "tags": ["Kotlin", "Android", "Compose", "MVVM"],
