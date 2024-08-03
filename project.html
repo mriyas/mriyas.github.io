@@ -94,25 +94,11 @@
             display: flex;
             gap: 10px;
             margin: 20px 0;
-        }
-
-        .download-button {
-            display: inline-flex;
-            align-items: center;
             justify-content: center;
-            padding: 10px 20px;
-            background-color: #3cba54;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 1em;
-            font-weight: bold;
         }
 
-        .download-button img {
-            margin-right: 10px;
-            height: 20px;
+        .download-buttons img {
+            height: 40px; /* Adjust height as needed */
         }
 
         @media screen and (max-width: 600px) {
@@ -126,7 +112,7 @@
                 align-items: center;
             }
 
-            .download-button {
+            .download-buttons img {
                 margin-bottom: 10px;
             }
         }
@@ -164,12 +150,12 @@
                             ${project.highlighs.map(highlight => `<li>${highlight}</li>`).join('')}
                         </ul>
                         <div class="download-buttons">
-                            <a href="${project.link}" class="download-button" target="_blank">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">Google Play
+                            <a href="${project.link}" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
                             </a>
                             ${project.ios_link ? `
-                            <a href="${project.ios_link}" class="download-button" style="background-color: #0070c9;">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store">App Store
+                            <a href="${project.ios_link}" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store">
                             </a>` : ''}
                         </div>
                     `;
