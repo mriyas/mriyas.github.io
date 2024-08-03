@@ -101,8 +101,8 @@
             .then(response => response.json())
             .then(projects => {
                 const urlParams = new URLSearchParams(window.location.search);
-                const projectTitle = urlParams.get('title');
-                const project = projects.find(p => p.title === projectTitle);
+                const projectId = urlParams.get('id');
+                const project = projects.find(p => p.id === projectId);
 
                 if (project) {
                     document.getElementById('project-details').innerHTML = `
