@@ -28,7 +28,12 @@
       "Compose",
       "MVVM",
       "Clean Code",
-      "Multi-module Project"
+      "Dagger2",
+      "Analytics",
+      "CI/CD",
+      "BLE",
+      "MQTT",
+      "Multi-module"
     ],
     "link": "https://play.google.com/store/apps/details?id=com.dyson.mobile.android&hl=en_GB"
   },
@@ -41,8 +46,15 @@
     "tags": [
       "Kotlin",
       "Android",
-      "Compose",
-      "MVVM"
+      "Java",
+      "IoT",
+      "Xml",
+      "Room",
+      "BLE",
+      "MQTT",
+      "Retrofit",
+      "Hilt",
+      "MVVM",
     ],
     "images": [
       "https://play-lh.googleusercontent.com/hLHwBCBJ15PyeCZlZETiVgN8mno6lhtBdl_uOd5pcNzA_AWTvEn3hNcsRYrrnMCg=w1052-h592-rw",
@@ -52,12 +64,20 @@
       "https://play-lh.googleusercontent.com/gCHCcwysg8_5ybjCNjGzUO5gmzgusc6zQYvam15Pyezqy0ckNN3SksdDA3YqPV_fTg=w1052-h592-rw"
     ],
     "highlighs": [
-      "Kotlin",
-      "Android",
-      "Compose",
-      "MVVM",
-      "Clean Code",
-      "Multi-module Project"
+      "As a proven leader and application architect, I drive system architecture decisions and lead projects from concept through to launch",
+      "Prototyped, designed, developed, tested and published mobile apps for Home automation, Real-time tracking and Broadcasting and media solutions",
+      "Delivered quarantine management apps within stringent timelines (under 45 days) to Ministry of Health of various countries (Singapore, Brunei, Cayman Island) during the COVID pandemic resulting in 50% revenue increase",
+      "Developed WiSilica Mesh Android SDK with documentation, empowering smart home/indoor tracking vendors to develop their own custom apps which contributed to acquiring notable clients like Samsung, Philips, iGuzzini and Jio",
+      "Managed Android OS API updates successfully in run-time permissions, notification, background service restriction and location access, ensuring smooth operation of a user-sensitive quarantine management system",
+      "Built offline-first app for optimum server API usage, reducing server traffic by 30%",
+      "Resolved Bluetooth Low Energy (BLE) issues in IoT based applications, ensuring continued support on 100% Android versions and phones by: <br><td>-- Developing a BLE scanner wrapper to resolve inherent BLE scan limitations from Android 8.0 <br><td>-- Using BLE central mode of communication for phones which do not support BLE peripheral mode",
+      "Migrated muti-module project from Java to Kotlin and MVVM architecture which reduced crashes to below 5% and resolved issues in application state management",
+      "Developed Android Studio plugin to switch between application variant which reduced the build time by 40%",
+      "Innovated an encryption library using AES-128 for secure communication, protecting against various security threats such as man-in-the-middle attack, attribute spoofing and eavesdropping",
+      "Integrated Google Play services, Firebase analytics and Google Map API to boost user tracking by 30%",
+      "Developed an internal sniffer app to decode the BLE messages from the embedded devices aiding cross-functional team and customers to analyze nearby BLE traffic and detect message loss resulting in BLE communication failure",
+      "Hired and mentored junior developers, facilitating rapid project onboarding and skill development while transparently communicating to management about their progress and team building activities",
+      "Promoted development best practices, patterns and standards"
     ],
     "link": "https://play.google.com/store/apps/details?id=com.wisilica.Home&hl=en_GB"
   }
