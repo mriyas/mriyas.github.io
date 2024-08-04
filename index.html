@@ -98,7 +98,7 @@
         }
 
         .profile .social-links a:hover {
-            background-color: #333;
+            background-color: #e4794d;
             color: #fff;
         }
 
@@ -117,11 +117,36 @@
         }
 
         .resume a:hover {
-            background-color: #777;
-            color: #fff;
-            border: 2px solid #777;
+            background-color: #e4794d;
+            color: #e4794d;
+            border: 2px solid #e4794d;
 
         }
+        .resume-buttons {
+            display: flex;
+            justify-content: center; /* Center buttons horizontally */
+            gap: 10px; /* Space between buttons */
+            margin: 20px 0; /* Space above and below the buttons */
+        }
+
+        .resume-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #000;
+            border: 2px solid #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            text-align: center;
+        }
+
+        .resume-button:hover {
+            background-color: #e4794d; 
+            color: #fff; 
+            border: 2px solid #e4794d; 
+        }
+
 
         .content p {
             line-height: 1.6;
@@ -285,19 +310,40 @@
             color: #333;
             margin: 0;
             padding-bottom: 10px;
+            font-family: Helvetica;
         }
         .tech-stack h3 {
+            display: flex;
             text-align: left;
             font-size: 1.1em;
-            margin: 10px 0 5px;
             color: #333;
             font-family: Helvetica;
         }
 
         .divider {
             height: 1px;
-            background-color: #e4794d;
-            margin-bottom: 20px;
+            background-color: #777;
+            margin-bottom: 30px;
+        }
+
+        .tech-stack {
+            width: 100%;
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .tech-stack h2 {
+            text-align: left;
+            font-size: 1.5em;
+            margin: 10px 0 5px;
+            color: #333;
+            margin: 0;
+            padding-bottom: 10px;
+            font-family: Helvetica;
         }
 
         .tech-stack table {
@@ -306,23 +352,25 @@
         }
 
         .tech-stack td {
-            padding: 10px;
+            padding: 5px 0 20px;
             vertical-align: middle;
         }
 
         .tech-item {
             display: flex;
-            align-items: center;
+            align-items: flex-start; /* Align items to the start vertically */
         }
 
-        .tech-item img {
-            width: 40px;
-            height: 40px;
-            margin-right: 0px;
+        .tech-item h4 {
+            margin: 0;
+            line-height: 20px; /* Adjust line-height to match the height of the stars for vertical alignment */
+            font-weight: normal; /* Ensure the font weight is normal */
         }
 
         .stars {
             display: flex;
+            align-items: flex-start; /* Align stars to the start vertically */
+            margin-left: 10px; /* Add some spacing between the tech-item and stars */
         }
 
         .star {
@@ -334,8 +382,9 @@
         }
 
         .filled {
-            background-color: #ffd700;
+            background-color: #e4794d;
         }
+
     </style>
 </head>
 <body>
@@ -352,55 +401,16 @@
                    <a href="https://uk.linkedin.com/in/riyaskokkur" target="_blank"><i class="fab fa-linkedin"></i></a>
                    <a href="https://medium.com/@muhamed.riyas" target="_blank"><i class="fab fa-medium"></i></a>
                 </div>
+
                 <div class="tech-stack">
-                    <h2>Technical Skills</h2>
-                    <!-- <div class="divider"></div> -->
-                    <table>
-                        <tr>
-                           <td>
-                                <h3>Kotlin</h3>
-                            </td>
-                            <td>
-                                <div class="stars">
-                                    <div class="star filled"></div>
-                                    <div class="star filled"></div>
-                                    <div class="star filled"></div>
-                                    <div class="star filled"></div>
-                                    <div class="star"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3>Kotlin</h3>
-                            </td>
-                            <td>
-                                <div class="stars">
-                                    <div class="star filled"></div>
-                                    <div class="star filled"></div>
-                                    <div class="star filled"></div>
-                                    <div class="star filled"></div>
-                                    <div class="star"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3>Flutter</h3>
-                            </td>
-                            <td>
-                                <div class="stars">
-                                    <div class="star filled"></div>
-                                    <div class="star filled"></div>
-                                    <div class="star filled"></div>
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- Add more skills as needed -->
+                    <h2>Tech Stack</h2>
+                    <div class="divider"></div>
+                    <table id="tech-stack-table">
+                        <!-- Rows will be generated dynamically by JavaScript -->
                     </table>
                 </div>
+
+
             </div>
             <div class="content">
                 <p>Hello,</p>
@@ -423,13 +433,15 @@
                     I am dedicated to maintaining the highest standards of app development and continuously seeking new ways to improve and innovate.
                 </p>
 
-              <div class="resume">
-                    <a href="assets/riyas_resume.pdf" target="_blank">View Resume</a>
-                  </div>
+              <div class="resume-buttons">
+                <a href="assets/riyas_resume.pdf" target="_blank" class="resume-button">View Resume</a>
+                <a href="#projects" class="resume-button">View Portfolio</a>
+            </div>
+
             </div>
         </div>
 
-         <div class="projects">
+         <div class="projects" id="projects">
             <h2>Portfolio</h2>
             <div class="grid-container" id="project-grid"></div>
         </div> 
@@ -465,6 +477,63 @@
             })
             .catch(error => console.error('Error loading project data:', error));
     </script>
+
+    <script>
+        // Function to generate stars based on rating
+        function generateStars(rating) {
+            const maxStars = 5;
+            let starsHTML = '';
+
+            // Add filled stars
+            for (let i = 0; i < rating; i++) {
+                starsHTML += '<span class="star filled"></span>';
+            }
+
+            // Add empty stars
+            for (let i = rating; i < maxStars; i++) {
+                starsHTML += '<span class="star"></span>';
+            }
+
+            return starsHTML;
+        }
+
+        // Function to populate the tech stack table
+        function populateTechStack() {
+            const techStackData = [
+                { name: 'Android', rating: 5 },
+                { name: 'Kotlin', rating: 5 },
+                { name: 'Jetpack', rating: 5 },
+                { name: 'Java', rating: 5 },
+                { name: 'REST API', rating: 5 },
+                { name: 'JUnit', rating: 5 },
+                { name: 'Espresso', rating: 3 },
+                { name: 'Paparazzi', rating: 3 }
+            ];
+
+            const table = document.getElementById('tech-stack-table');
+            table.innerHTML = ''; // Clear existing content
+
+            techStackData.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="tech-item">
+                        <h4>${item.name}</h4>
+                    </td>
+                    <td>
+                        <div class="stars">
+                            ${generateStars(item.rating)}
+                        </div>
+                    </td>
+                `;
+                table.appendChild(row);
+            });
+        }
+
+        // Initialize the tech stack table on page load
+        document.addEventListener('DOMContentLoaded', populateTechStack);
+    </script>
+
+
 
 </body>
 </html>
