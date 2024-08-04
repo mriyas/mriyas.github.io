@@ -36,7 +36,35 @@
             padding: 20px;
             box-sizing: border-box;
         }
+        .content.resume-buttons {
+            display: flex;
+            justify-content: center; /* Center buttons horizontally */
+            gap: 10px; /* Space between buttons */
+            margin: 20px 0; /* Space above and below the buttons */
+        }
 
+        .content.resume-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #000;
+            border: 2px solid #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            text-align: center;
+        }
+
+        .content.resume-button:hover {
+            background-color: #e4794d;
+            color: #fff;
+        }
+        .content.resume-button a:hover {
+            background-color: #e4794d;
+            color: #fff;
+            border: 1px solid #e4794d; /* Match the color to the background */
+
+        }
         .profile {
             width: 30%;
             display: flex;
@@ -122,30 +150,7 @@
             border: 2px solid #e4794d;
 
         }
-        .resume-buttons {
-            display: flex;
-            justify-content: center; /* Center buttons horizontally */
-            gap: 10px; /* Space between buttons */
-            margin: 20px 0; /* Space above and below the buttons */
-        }
-
-        .resume-button {
-            display: inline-block;
-            padding: 10px 20px;
-            color: #fff;
-            background-color: #000;
-            border: 2px solid #000;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1em;
-            text-align: center;
-        }
-
-        .resume-button:hover {
-            background-color: #e4794d; 
-            color: #fff; 
-            border: 2px solid #e4794d; 
-        }
+        
 
 
         .content p {
