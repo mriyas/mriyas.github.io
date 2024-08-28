@@ -370,7 +370,8 @@
 
         .tech-item h4 {
             margin: 0;
-            line-height: 20px; /* Adjust line-height to match the height of the stars for vertical alignment */
+            font-size: 0.7em;
+            line-height: 16px; /* Adjust line-height to match the height of the stars for vertical alignment */
             font-weight: normal; /* Ensure the font weight is normal */
         }
 
@@ -381,8 +382,8 @@
         }
 
         .star {
-            width: 20px;
-            height: 20px;
+            width: 16px;
+            height: 16px;
             background-color: #ccc;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
             margin-right: 5px;
@@ -499,10 +500,10 @@
                 { name: 'Java', rating: 5 },
                 { name: 'Dart', rating: 5 },
                 { name: 'Jetpack', rating: 5 },
-                { name: 'REST API', rating: 5 },
+               // { name: 'REST API', rating: 5 },
                 { name: 'JUnit', rating: 5 },
                 { name: 'Espresso', rating: 3 },
-                { name: 'Paparazzi', rating: 3 }
+                //{ name: 'Paparazzi', rating: 3 }
             ];
 
             const table = document.getElementById('tech-stack-table');
