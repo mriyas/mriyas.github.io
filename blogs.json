@@ -1,4 +1,16 @@
-[
+[ 
+    {
+        "title": "The Lifecycle of Jetpack Compose Composables vs. Android View Lifecycle: A Quick Dive",
+        "description": "In Android development, understanding the lifecycle of UI components is crucial to creating responsive and efficient applications. Traditionally, Android UIs have been built using Views and the ViewGroup hierarchy. However, with the introduction of Jetpack Compose, a new paradigm for building UIs has emerged.",
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*bwBDPKj8bNLJOmhI.png",
+        "link": "https://medium.com/@muhamed.riyas/the-lifecycle-of-jetpack-compose-composables-vs-android-view-lifecycle-a-quick-dive-61f93f70cd71"
+    },
+    {
+        "title": "Jetpack Compose AppBars: From Basics to Advanced Scroll Behaviors",
+        "description": "Jetpack Compose offers a flexible and powerful way to build UI in Android. One of the essential components in any Android app is the AppBar, which provides a consistent space for branding, screen titles, and actions. In this post, we’ll explore different types of AppBar components in Jetpack Compose.",
+        "image": "https://miro.medium.com/v2/resize:fit:640/format:webp/0*FdTv8TUZGnlDcR9q.png",
+        "link": "https://medium.com/@muhamed.riyas/jetpack-compose-appbars-from-basics-to-advanced-scroll-behaviors-44a3a6cc62f0"
+    },
     {
         "title": "Flutter Firebase Initialization with DefaultFirebaseOptions : An Easy Guide",
         "description": "In this blog post, I’ll guide you through the process of setting up Firebase in your Flutter application. I’ll cover the initialization of Firebase with the await Firbase.initializeApp() method and the generation of DefaultFirebaseOptions using the Firebase CLI.",
