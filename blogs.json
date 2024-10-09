@@ -1,5 +1,11 @@
 [ 
     {
+        "title": "Passing Data Between Screens in Jetpack Compose: A Comprehensive Guide",
+        "description": "In Jetpack Compose, when building multi-screen applications, it’s essential to pass data between screens efficiently and in a way that suits the complexity and requirements of your app.",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*EzfzkCT9O2EJ7dmx.png",
+        "link": "https://medium.com/@muhamed.riyas/passing-data-between-screens-in-jetpack-compose-a-comprehensive-guide-76f9af967843"
+    },
+    {
         "title": "The Lifecycle of Jetpack Compose Composables vs. Android View Lifecycle: A Quick Dive",
         "description": "In Android development, understanding the lifecycle of UI components is crucial to creating responsive and efficient applications. Traditionally, Android UIs have been built using Views and the ViewGroup hierarchy. However, with the introduction of Jetpack Compose, a new paradigm for building UIs has emerged.",
         "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*bwBDPKj8bNLJOmhI.png",
